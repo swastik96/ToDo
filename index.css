@@ -1,0 +1,70 @@
+.main-container{
+    margin-top: 3%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.heading-row{
+    /* margin-left: 60px; */
+    text-align: center;
+    /* width: 80%; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.task-list{
+    font-size: 60px;
+}
+
+.add-list{
+    font-size: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+
+.card-content{
+    border: 2px solid coral;
+    border-radius: 20px;
+    width: 17%;
+    height: 50%;
+}
+
+.card-heading{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: orangered;
+}
+
+hr{
+    border:1px solid orangered; 
+    margin-left: 30px;
+}
+
+.checkbox{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-link{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.next-link{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-size: xx-large;
+    border-radius: 10px;
+}
