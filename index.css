@@ -1,5 +1,9 @@
+body{
+    margin: 0px;
+}
+
 .main-container{
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -11,6 +15,7 @@
     /* background-color: yellow; */
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -23,16 +28,23 @@
 }
 
 .cards{
+    /* height: 1000px; */
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
+    align-content: space-between;
     /* background-color: yellow; */
 }
 
 .card-content{
+    margin-top: 10px;
     border: 2px solid coral;
     border-radius: 20px;
-    width: 17%;
-    height: 50%;
+    /* width: 17%; */
+    /* height: 50%; */
+    height: 280px;
+    width: 300px;
 }
 
 .card-heading{
