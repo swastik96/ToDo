@@ -117,12 +117,13 @@ hr{
     border-radius: 10px;
     height: 1.5em;
     z-index: 1;
+    width: 50%;
 }
 
 .button-block{
-    font-size: x-large;
+    font-size: 150%;
     z-index: 1;
-    width: 25%;
+    width: 2.4em;
     border:0px;
     background-color: orangered;
     color: white;
@@ -133,7 +134,7 @@ hr{
 }
 
 .button-block:hover{
-    width: 30%;
+    width: 3.4em;
     box-shadow: 4px 8px 8px gray,-4px -8px 8px lavender;
 }
 

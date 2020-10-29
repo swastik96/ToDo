@@ -133,13 +133,14 @@
     border: 1px solid orangered;
     border-radius: 10px;
     height: 1.5em;
+    width: 50%;
     z-index: 1;
 }
 
 .button-block{
-    font-size: x-large;
+    font-size: 150%;
     z-index: 1;
-    width: 25%;
+    width: 2.4em;
     border:0px;
     background-color: orangered;
     color: white;
@@ -150,8 +151,12 @@
 }
 
 .button-block:hover{
-    width: 30%;
+    width: 3.4em;
     box-shadow: 4px 8px 8px gray,-4px -8px 8px lavender;
+}
+
+.back-zindex{
+    z-index: 2;
 }
 
 
