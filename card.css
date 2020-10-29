@@ -2,9 +2,106 @@
     margin-top: 3%;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.head-block{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .heading{
     text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hr-head{
+    width: 80px;
+    color: black;
+    height: 2px;
+    background-color: blue;
+}
+
+.back-block{
+    display: flex;
+    justify-content: center;
+}
+
+.back-link{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.back-link:hover{
+    font-size: 40px;
+    color: blue;
+}
+
+.card-block{
+    display: flex;
+    justify-content: center;
+}
+
+.card-content{
+    margin-top: 10px;
+    border: 2px solid coral;
+    border-radius: 20px;
+    /* width: 17%; */
+    /* height: 50%; */
+    height: 280px;
+    width: 300px;
+}
+
+.card-heading{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: orangered;
+}
+
+.hr-card{
+    border:1px solid orangered; 
+    margin-left: 30px;
+}
+
+.checkbox{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-link{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.next-link{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.next-link:hover{
+    font-size: 40px;
+    color: blue;
 }

@@ -80,3 +80,8 @@ hr{
     font-size: xx-large;
     border-radius: 10px;
 }
+
+.next-link:hover{
+    font-size: 40px;
+    color: blue;
+}
