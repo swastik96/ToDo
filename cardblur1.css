@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    overflow:auto;
+}
+
+.main-container{
+    margin-top: 2%;
+    margin-left: 100px;
+    margin-right: 100px;
+    filter: blur(12px);
+    position: absolute;
+}
+
+.heading-row{
+    /* margin-left: 60px; */
+    text-align: center;
+    /* width: 80%; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.task-list{
+    font-size: 60px;
+}
+
+.add-list{
+    font-size: 40px;
+}
+
+.cards{
+    /* height: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    /* background-color: yellow; */
+}
+
+.card-content{
+    margin-top: 10px;
+    border: 2px solid coral;
+    border-radius: 20px;
+    /* width: 17%; */
+    /* height: 50%; */
+    height: 280px;
+    width: 300px;
+}
+
+.card-heading{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: orangered;
+}
+
+hr{
+    border:1px solid orangered; 
+    margin-left: 30px;
+}
+
+.checkbox{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-link{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.next-link{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.next-link:hover{
+    font-size: 40px;
+    color: blue;
+}
+
+
+
+/* ------------------Top container------------------ */
+.top-container{
+    /* margin-top: 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+}
+
+.card-container-top{
+    margin-left: 32%;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+    width: 35%;
+    z-index: 1;
+    box-shadow: 3px 6px 4px gray,-3px -6px 4px gray;
+    /* height: 10em; */
+}
+
+.input-block{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    height: 1.5em;
+    z-index: 1;
+}
+
+.button-block{
+    font-size: x-large;
+    z-index: 1;
+    width: 25%;
+    border:0px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.button-block:hover{
+    width: 30%;
+    box-shadow: 4px 8px 8px gray,-4px -8px 8px lavender;
+}
+
+.footer-link{
+    display: flex;
+    /* margin-top: 50px; */
+    justify-content: center;
+    z-index: 1;
+    /* position: static; */
+}
+
+.next-link{
+    text-decoration: none;
+    text-align: center;
+    color: orangered;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-size: xx-large;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.next-link:hover{
+    font-size: 40px;
+    color: blue;
+}

@@ -45,6 +45,7 @@ body{
     /* height: 50%; */
     height: 280px;
     width: 300px;
+    box-shadow: 3px 6px 4px gray,-3px -6px 4px gray;
 }
 
 .card-heading{
